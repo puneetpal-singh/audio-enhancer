@@ -1,0 +1,9 @@
+ffmpeg-python
+pyloudnorm
+numpy
+soundfile
+pedalboard
+fastapi
+uvicorn
+pydantic
+deepfilternet
