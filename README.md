@@ -2,6 +2,8 @@
 
 Audio Enhancer is a local video-audio restoration tool. It combines a FastAPI backend, a React control panel, FFmpeg, DeepFilterNet noise suppression, Pedalboard vocal processing, and loudness normalization.
 
+The goal is practical: take noisy video audio, clean it locally, improve vocal presence, normalize loudness, and remux the result back into the original video without re-encoding the video stream.
+
 ## Features
 
 - Enhance video audio without re-encoding the video stream.
@@ -49,3 +51,7 @@ python enhance.py "C:\path\to\video.mp4" --output "C:\path\to\enhanced_video.mp4
 ```
 
 Generated media, local environments, model binaries, and frontend dependencies are intentionally excluded from Git.
+
+## Skills Shown
+
+`Python` | `FastAPI` | `React` | `DeepFilterNet` | `FFmpeg` | `Audio DSP` | `Local AI Tooling`
